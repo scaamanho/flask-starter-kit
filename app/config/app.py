@@ -4,9 +4,9 @@
 
 
 class BaseConfig:
-    HOST = "127.0.0.1"
+    HOST = "0.0.0.0"
     PORT = 8000
-    ADMINS = frozenset(['aiscenblue@gmail.com'])
+    ADMINS = frozenset(['amdmin@example.com'])
     SECRET_KEY = 'SecretKeyForSessionSigning'
     CSRF_ENABLED = True
     CSRF_SESSION_KEY = "somethingimpossibletoguess"
